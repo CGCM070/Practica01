@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centrar {
+    box-sizing: border-box;
+    max-width: 1000px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerContainer {
+    height: 80px;
+    border: solid 1px black;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+
+.busqueda {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.buscar {
+    position: absolute;
+    color: rgb(218, 207, 207);
+    right: 160px;
+    top: 2px;
+}
+
+.navContainer {
+    background-color: #3d3a3a;
+}
+
+.navContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navContainer ul {
+    list-style-type: none;
+}
+
+.navContainer li {
+    float: left;
+    padding: 14px 20px;
+}
+
+.navContainer li:hover {
+    background-color: #575757;
+}
+
+.navContainer li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navContainer .aulaVirtual {
+    float: right;
+}
+
+.encabezado {
+    background-image: url("../images/bg-logo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.encabezado h2 {
+    color: black;
+    padding-left: 20px;
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.contenidoP {
+    border: solid .5px black;
+
+    overflow: hidden;
+}
+
+.mainContent {
+    border: solid .5px salmon;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.principal {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid green;
+}
+
+.info {
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+}
+
+.secundarios {
+    overflow: hidden;
+}
+
+.secundarios article {
+    background-color: #e4e4e4;
+    padding: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.secundarios .columna1 {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.secundarios .columna2 {
+    float: left;
+    width: 45%;
+}
+
+.img-container {
+    clear: both;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.img {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    margin-bottom: 10px;
+}
+
+.img:nth-child(2n) {
+    margin-right: 0;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #d4d4d4;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
